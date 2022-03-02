@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="keywords" content="CURTiA,カルティア,かるてぃあ,有沢美矢,小柴みすず,篠本桜,城ノすい,結野優姫,アダマスガティエンターテインメント">
+    <meta name="description" content="アイドルグループ「CURTiA」の公式サイト。ライブ情報などCURTiAに関する情報をお伝えします。">
+    <link rel="shortcut icon" href="../img/curtia.jpg">
+    <link rel="apple-touch-icon" href="../img/curtia.jpg">
+    <link rel="icon" type="image/png" href="../img/curtia.jpg">
+    <meta property="og:title" content="CURTiA">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.curtia.jp">
+    <meta property="og:image" content="https://www.curtia.jp/img/curtia.jpg">
+    <meta property="og:site_name" content="CURTiA">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="CURTiA">
+    <meta name="twitter:image" content="https://www.curtia.jp/img/curtia.jpg">
+    <meta name="twitter:app:country" content="jp">
+    <link rel="stylesheet" href="./css/destyle.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <title>CURTiA | ORIGINAL MUSIC</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F8T7QWMD17"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-F8T7QWMD17');
+
+        $(function(){
+            let inputs = $('input[name=tab]');
+            let old_click_index = 0;
+            inputs.on('click', function(){
+                let click_index = $(this).val() - 1;
+                $(inputs).each(function(index) {
+                    if(old_click_index !== click_index && click_index !== index) {
+                        $(this).prop('checked', false);
+                    } else if(old_click_index === click_index) {
+                        $(inputs[old_click_index]).prop('checked', false);
+                        click_index = null;
+                    }
+                });
+                old_click_index = click_index;
+            });
+        });
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="logo_block">
+            <a href="/"><img class="logo" src="./img/curtia.png" alt="ロゴ"></a>
+        </div>
+        <nav class="global_nav">
+            <ul class="global_nav_list">
+                <li class="global_nav_list_item"><a href="member.html">MEMBER</a></li>
+                <li class="global_nav_list_item"><a href="schedule.html">SCHEDULE</a></li>
+                <li class="global_nav_list_item"><a href="video.php">VIDEO</a></li>
+                <!--                <li class="global_nav_list_item"><a href="./media.html">MEDIA</a></li>-->
+                <li class="global_nav_list_item"><a href="regulation.html">REGULATION</a></li>
+                <li class="global_nav_list_item"><a class="active" href="original_music.html">ORIGINAL MUSIC</a></li>
+                <li class="global_nav_list_item"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <nav class="hamburger_menu">
+            <input type="checkbox" id="menu_btn_check">
+            <label for="menu_btn_check" class="menu_btn"><span></span></label>
+            <div class="menu_content">
+                <ul>
+                    <li>
+                        <a href="member.html">MEMBER</a>
+                    </li>
+                    <li>
+                        <a href="schedule.html">SCHEDULE</a>
+                    </li>
+                    <li>
+                        <a href="video.php">VIDEO</a>
+                    </li>
+                    <!--                    <li>-->
+                    <!--                        <a href="./media.html">MEDIA</a>-->
+                    <!--                    </li>-->
+                    <li>
+                        <a href="regulation.html">REGULATION</a>
+                    </li>
+                    <li>
+                        <a href="original_music.html">ORIGINAL MUSIC</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="original_music_block">
+            <h1>ORIGINAL MUSIC</h1>
+            <div class="tab-wrap">
+                <input id="tab_1" type="radio" name="tab" class="tab-switch" value="1" checked/>
+                <label class="tab-label" for="tab_1">藍色</label>
+                <div class="tab-content">
+                    作詞曲 烏屋茶房<br>
+                    編曲 yasushi<br><br><br>
+                    灯りが落ちた遊園地<br>
+                    海の中沈み<br>
+                    回るのをやめた観覧車<br>
+                    風に揺らいで<br><br>
+                    あとちょっと、あとちょっと<br>
+                    見たかった<br>
+                    夢が覚めたんだって気付いた<br><br>
+                    嘘にかわった、約束とか思い出とか<br>
+                    捨てられないままでいるんだ<br>
+                    思い出の中で微笑んだ<br>
+                    君が綺麗で<br><br>
+                    ありがとう、さよなら<br>
+                    また会う日まで<br>
+                    笑って、笑って<br>
+                    僕らまた出会えるなら<br><br>
+                    涙も最後に<br>
+                    さらってくれないか<br>
+                    全部溶けてゆく<br>
+                    藍色の波をただ待って<br><br>
+                    暗がりの中一人<br>
+                    ぼやけた視界と<br>
+                    ほおってくれない外灯で<br>
+                    星は見えない<br><br>
+                    近づいて近づいて近づいて<br>
+                    それでも届かなかったな<br><br>
+                    痛みはまだ消えないまま<br>
+                    何度も胸をさすくせに<br><br>
+                    影すら消えて<br>
+                    嘘に変わってゆく<br>
+                    ひとつひとつ<br>
+                    僕ら忘れてく<br><br>
+                    灯りが落ちた遊園地<br>
+                    海の中沈み<br>
+                    回るのをやめた観覧車<br>
+                    風に揺らいで<br><br>
+                    ほらもう、行かなくちゃ、行かなくちゃ<br>
+                    夜が明けてゆく時間だ<br>
+                    ねぇ<br><br>
+                    ありがとう、さよなら<br>
+                    また会う日まで<br>
+                    笑って、笑って<br>
+                    僕らまた出会えるなら<br><br>
+                    涙も最後に<br>
+                    さらってくれないか<br>
+                    全部溶けてゆく<br>
+                    藍色の波に消えてゆく<br><br>
+                    全部<br>
+                    ありがとう、さよなら<br>
+                    また会う日まで<br>
+                    笑って、笑って、笑って<br>
+                </div>
+                <input id="tab_2" type="radio" name="tab" class="tab-switch" value="2"/>
+                <label class="tab-label" for="tab_2">雨降って透明</label>
+                <div class="tab-content">
+                    作詞曲 烏屋茶房<br>
+                    編曲 Powerless<br><br><br>
+                    そうやって僕らは0になる<br><br>
+                    軽い眩暈と憂鬱で<br>
+                    滲む水彩画の空<br>
+                    ぐちゃぐちゃになった絵具<br>
+                    苦しくてもがいた朝<br><br>
+                    もうガンガンと響く脳内の<br>
+                    鈍色の痛みを<br>
+                    胡麻化せないなら<br>
+                    駆けだして今<br>
+                    傘なんて持たないでさ<br><br>
+                    雨降って透明<br>
+                    散々と泣いて<br>
+                    そうやって僕らは0になる<br><br>
+                    街を覆う雲<br>
+                    君の焦燥も<br>
+                    水溜まりに落ちていく<br><br>
+                    雨降って透明<br>
+                    影のち晴れ<br>
+                    そうやって空から虹が降る<br><br>
+                    飾らなくていいよ<br>
+                    隠さなくていいよ<br>
+                    乾いて消えてく<br>
+                    それならいっそ<br><br>
+                    軋む記憶は幽霊だ<br>
+                    不意に現れるくせに<br>
+                    手を伸ばしたってどうせ<br>
+                    触れさせてすらくれない<br><br>
+                    水鏡 雨上がり<br>
+                    遠回りする心<br>
+                    汚れてしまわないように<br>
+                    そんな風に何度何度ごまかしただろう<br><br>
+                    作り笑顔も<br>
+                    忘れた振りも<br>
+                    そんなの全部必要ないよ<br>
+                    ごめんねちゃんと向き合おう<br>
+                    きっとこの感情の名前は後悔<br><br>
+                    傷つきながら<br>
+                    描き続けた<br>
+                    いつか夢見た景色<br>
+                    ごめんねもう、いかなきゃ<br><br>
+                    雨降って透明<br>
+                    散々と泣いて<br>
+                    そうやって僕らは0になる<br><br>
+                    全部吐き出して<br>
+                    全部声に出して<br>
+                    水溜まりになっていく<br><br>
+                    雨降って透明<br>
+                    影のち晴れ<br>
+                    そうやって空から虹が降る<br><br>
+                    飾らなくていいよ<br>
+                    隠さなくていいよ<br>
+                    乾いて消えてく<br>
+                    ぼくらはずっと<br><br>
+                    雨になって消える<br>
+                </div>
+                <input id="tab_3" type="radio" name="tab" class="tab-switch" value="3"/>
+                <label class="tab-label" for="tab_3">さよなら、シオン</label>
+                <div class="tab-content">
+                    作詞曲 GaGa Ball Club<br><br><br>
+                    “未来”なんて美しい言葉の中に<br>
+                    “いつか”なんて意味は無かった<br><br>
+                    “バイバイ”さよなら の言葉の中に<br>
+                    明日の僕はもういないことを知った<br><br>
+                    出発時刻3分前間に合わないことは<br>
+                    もうわかってる<br>
+                    radikoから流れてくるMusic Freeway<br><br>
+                    この洋楽は誰の曲?なんて気を紛らわせて<br>
+                    改札の前、目を閉じて、<br>
+                    涙堪えるしかなかったんだ<br><br>
+                    結露で滲む眼の向こうに<br>
+                    何が待っているのだろう<br><br>
+                    忘れたくないよ、でも、<br>
+                    いつかは忘れるんだよ<br>
+                    たぶん、きっと、そんな気がするんだ<br><br>
+                    忘れたくないよ、もう、<br>
+                    今日が最後かもしれない<br>
+                    たぶん、きっと、そんな気がするんだ<br><br>
+                    26時45分 もう誰もいないこの街でひとり<br>
+                    まだ見ぬ夢の続きのシナリオを描こう<br><br>
+                    日が昇るまでに 目が覚める前に<br>
+                    僕なりの 僕だけの<br>
+                    結末を 握りしめて 朝を迎えるんだ<br><br>
+                    月明かりでぼやける眼の向こうに<br>
+                    何が待っているのだろう<br><br>
+                    忘れたくないよ、でも、<br>
+                    いつかは忘れるんだよ<br>
+                    たぶん、きっと、そんな気がするんだ<br><br>
+                    忘れたくないよ、もう、<br>
+                    今日が最後かもしれない<br>
+                    たぶん、きっと、そんな気がするんだ<br><br>
+                    “忘れちゃった”っていつか<br>
+                    言える日が来たなら<br>
+                    たぶん、きっと、それでいいんだ<br>
+                    “忘れちゃった”なんて<br>
+                    ことさえ言えなくなるくらい<br>
+                    未来を　信じて  みようと思うんだ<br>
+                </div>
+                <input id="tab_4" type="radio" name="tab" class="tab-switch" value="4"/>
+                <label class="tab-label" for="tab_4">Re:Game</label>
+                <div class="tab-content">
+                    作詞曲 GaGa Ball Club<br><br><br>
+                    コトバの中に 詰め込んで<br>
+                    キミと今夜歌うよ<br>
+                    その笑顔が見たいから<br>
+                    キミと今夜踊るよ<br><br>
+                    やっとここまで来たんだ<br>
+                    涙流した夜もあったけど<br>
+                    今日を、この時を、信じてきたんだ<br><br>
+                    さぁ、始めよう どんな時だって、<br>
+                    一人なんかじゃない<br>
+                    今この瞬間はたった一度きりの<br>
+                    夢にまで見た景色さ<br>
+                    さぁ、始めよう 時計の針を止めて<br>
+                    この世界をいつまでも<br>
+                    エンディングの無いストーリーを<br>
+                    このままずっと<br>
+                    ずっとずっとずっとずっとずっと<br><br>
+                    あの日誓った約束を<br>
+                    ボクは今夜歌うよ<br>
+                    この気持ちを伝えたいから<br>
+                    ボクは今夜踊るよ<br><br>
+                    やっとここまで来たんだ<br>
+                    悔しくて眠れない日もあったけど<br>
+                    今を、この瞬間を、信じてきたんだ<br><br>
+                    走り出そう準備はいいかい?<br>
+                    何も恐れることはないから<br>
+                    さぁ、始めようどんな時だって、<br>
+                    一人なんかじゃない<br>
+                    今この瞬間はたった一度きりの<br>
+                    夢にまで見た景色さ<br>
+                    さぁ、始めよう 時計の針を止めて<br>
+                    この世界をいつまでも<br>
+                    エンディングの無いストーリーを<br>
+                    このままずっと<br>
+                    ずっとずっとずっとずっとずっと<br>
+                </div>
+                <input id="tab_5" type="radio" name="tab" class="tab-switch" value="5"/>
+                <label class="tab-label" for="tab_5">君と僕の物語</label>
+                <div class="tab-content">
+                    作曲 GaGa Ball Club<br><br><br>
+                    僕の前に現れた君　夢の中とさ同じ笑顔で<br>
+                    恥ずかしがる僕に　手を差し伸べて<br><br>
+                    これから行こうと　走り出すのさ　ほら<br>
+                    光の中で　楽しそうにする君<br>
+                    僕は目を離せなくて　立ち尽くす<br><br>
+                    君のね笑顔が<br>
+                    好きだよ　だけどダメ<br>
+                    僕だけの物に　ならないから<br><br>
+                    好きなの好きだよ<br>
+                    好きよ気付かないで<br>
+                    僕だけが知ってる　そう　君との物語<br><br>
+                    伝えたい思いが　溢れていくのに<br>
+                    遠ざかる足音　足りないこの時間<br><br>
+                    胸の奥に　聴こえる音楽は<br>
+                    君の声だけ　聴こえてしまって　苦しいよ<br><br>
+                    君のね笑顔が<br>
+                    好きだよ　だけどもう<br>
+                    これ以上　見れない<br>
+                    ほら　辛くなる<br><br>
+                    好きなの好きだよ<br>
+                    好きよ気付かないで<br>
+                    目に零れる汗が　消えるまでは　このままで<br><br>
+                    君と僕の　この物語<br>
+                    一緒に　歩いてく　ねぇ<br><br>
+                    好きなの<br>
+                    好きよ気付かないで<br>
+                    零れた笑顔に　胸焦がれる<br><br>
+                    君のね笑顔が<br>
+                    好きだよ　だからほら<br>
+                    ふと落ちた笑顔に　もう　もう<br><br>
+                    好きなの好きだよ<br>
+                    好きよ届かないで<br>
+                    君の笑顔が　ほら　溢れ出す<br><br>
+                    好きなの好きだよ<br>
+                    好きよ気付かないで<br>
+                    目に零れる汗が　消えるまでは<br><br>
+                    気付かないで　このままで<br>
+                </div>
+                <input id="tab_6" type="radio" name="tab" class="tab-switch" value="6"/>
+                <label class="tab-label" for="tab_6">Candy Pop</label>
+                <div class="tab-content">
+                    作詞曲 烏屋茶房<br>
+                    編曲 Len<br><br><br>
+                    とびきりの Candy pop カラリ<br>
+                    ときめきの Candy pop コロリ<br>
+                    声に出しちゃ全部 すぐに<br>
+                    バラバラ砕けちゃいそう<br><br>
+                    今はまだ Candy pop ペロリ<br>
+                    しあわせに Candy pop 包まれていたいの<br>
+                    だって僕は甘いのが好きなんだもん<br><br>
+                    (Candy pop カラリ・コロリoh<br>
+                    Candy pop ペロリ・ペロリ<br>
+                    Candy pop カラリ・コロリso sweet)<br><br>
+                    ピピピ 君からメッセージ<br>
+                    何気ない毎日の話<br>
+                    それだけでなんだか幸せ<br>
+                    まるで恋する女の子<br><br>
+                    不意に目と目が合ってたり<br>
+                    優しい言葉かけてくれたり<br>
+                    嬉しいけれどすこしだけやきもき<br>
+                    君は思わせぶり<br><br>
+                    ねぇ知りたい<br>
+                    君のキモチ<br>
+                    僕と同じならいいのにな<br><br>
+                    とびきりの Candy pop カラリ<br>
+                    ときめきの Candy pop コロリ<br>
+                    声に出しちゃ全部 すぐに<br>
+                    バラバラ砕けちゃいそう<br><br>
+                    だけどまだ Candy pop ペロリ<br>
+                    しあわせに Candy pop 包まれていたいの<br>
+                    だって僕は甘いのが好きなんだもん<br><br>
+                    (Candy pop カラリ・コロリoh<br>
+                    Candy pop アマイ・アマイ oh<br>
+                    Candy pop カラリ・コロリso sweet)<br><br>
+                    「週末暇？」って突然に<br>
+                    お出かけしようよのお誘い<br>
+                    それだけでもうドキドキになるのを<br>
+                    君は知ってるんでしょう？<br><br>
+                    ねぇ今よりあと一歩だけ<br>
+                    君に近づけたらいいのにな<br><br>
+                    とびきりの Candy pop カラリ<br>
+                    ときめきの Candy pop コロリ<br>
+                    伝えなくちゃ全部いつか<br>
+                    溶けてなくなっちゃいそう<br><br>
+                    だけどまだ Candy pop ペロリ<br>
+                    すこしだけ Candy pop 勇気が足りないの<br>
+                    だってぼくは苦いのはいやなんだもん<br><br>
+                    いつかちゃんと伝えるよ<br>
+                    だから今はこの甘い時を君と<br><br>
+                    とびきりの Candy pop カラリ<br>
+                    ときめきの Candy pop コロリ<br>
+                    声に出しちゃ全部 すぐに<br>
+                    心が溢れちゃうから……今は内緒<br><br>
+                    Candy pop ペロリ<br>
+                    しあわせに Candy pop 包まれていたいの<br>
+                    だって僕は君が大好きなんだもん<br>
+                </div>
+                <input id="tab_7" type="radio" name="tab" class="tab-switch" value="7"/>
+                <label class="tab-label" for="tab_7">ダウト</label>
+                <div class="tab-content">
+                    作詞曲編 篠崎あやと・橘亮祐<br><br><br>
+                    繰り返す言葉の裏側には<br>
+                    伏せられたまま<br>
+                    明かされることのない<br>
+                    本音がある<br><br>
+                    悩んでるみたいなメッセージは<br>
+                    今日も都合よく会うための<br>
+                    口実なんでしょ？<br><br>
+                    君にとって僕という存在がどういうものか<br>
+                    とっくに受け止めてるから<br>
+                    きっと大丈夫さ<br>
+                    （ダウト。）<br><br>
+                    君のつくどんな嘘も<br>
+                    気づいているんだよ<br>
+                    一番じゃないそんなことも<br>
+                    全部全部わかってるよ<br>
+                    こんなにも苦しくて<br>
+                    こんなに切ない気持ち<br>
+                    どこまででも君についていけるのは<br>
+                    僕だけさ<br><br>
+                    ”騙される方が悪いんじゃない？”<br>
+                    薄汚れたセリフが脳内から離れない<br>
+                    他人のコト信じ過ぎないように<br>
+                    一人でも生き抜いてけるように<br>
+                    そうやって作った強いココロ<br>
+                    なのにさ、嗚呼<br><br>
+                    ちゃんと繋がれない未来が<br>
+                    最初から決まってたかのように<br>
+                    深いところは晒せずにいた<br>
+                    そうさずっとずっとずっとずっと僕ら<br><br>
+                    ねえ、いつかカードを裏返したら<br>
+                    傷つくことになるのかな<br>
+                    灰色の空の下ひとつ願った<br>
+                    どうか、これだけは<br>
+                    「ダウト。」<br><br>
+                    君のつくどんな嘘も<br>
+                    気づいているけど<br>
+                    たったひとつ<br>
+                    これだけでいい<br>
+                    「好き」だけは本音がいいよ<br>
+                    こんなにも苦しくて<br>
+                    こんなに切ない気持ち<br>
+                    どこまででも君についていけるのは<br>
+                    世界中で絶対<br>
+                    僕だけさ<br>
+                    僕だけさ<br>
+                    僕だけさ<br>
+                </div>
+                <input id="tab_8" type="radio" name="tab" class="tab-switch" value="8"/>
+                <label class="tab-label" for="tab_8">Hold mE</label>
+                <div class="tab-content">
+                    作詞作編曲：篠崎あやと、橘亮祐<br><br><br>
+                    真面目ぶって純粋なフリで<br>
+                    みんな密かに狙ってるの<br>
+                    頭の中では静かに燃えてる<br>
+                    キミの隣は譲れない<br><br>
+                    誰を選べば幸せなんて 結局ほら相性でしょ？<br>
+                    どれだけ自分を良く見せられるか<br>
+                    策略が巡っていく<br><br>
+                    見た目がかわいいだけの<br>
+                    あの子なんかじゃバッドビート<br>
+                    その指先で僕だけを、残して<br><br>
+                    恋は駆け引き　負けられない<br>
+                    1 番になれるのは誰？<br>
+                    熱い視線を独り占めして<br>
+                    心、キミと重ねたい<br><br>
+                    恋にわずらい　止められない<br>
+                    ハート撃ち抜かれてる<br>
+                    最後の札が明かされるまで<br>
+                    きっと、僕を信じて<br><br>
+                    照れた顔もこの涙も自由自在に操れるの<br>
+                    正反対の感情 作り出すポーカーフェイス<br>
+                    戦略が交差してく<br><br>
+                    “汚いやり方”なんて<br>
+                    思っちゃうならバッドエンド<br>
+                    この手札で君の心、引き寄せ<br><br>
+                    声に出せない　こんな想い<br>
+                    いつも胸に秘めてる<br>
+                    冷めたフリして隠してみても<br>
+                    鼓動、キミに聞こえそう<br><br>
+                    上ずる声　動く目線<br>
+                    ほころび見逃したまま<br>
+                    余裕じゃなくて　ほんとは少し<br>
+                    気づいて欲しいのかな<br><br>
+                    「透明なまま愛されたい」<br>
+                    でもそれって理想論かな わかってる<br><br>
+                    恋は駆け引き　負けられない<br>
+                    1 番になれるのは誰？<br>
+                    熱い視線を独り占めして<br>
+                    心、キミと重ねたい<br><br>
+                    恋にわずらい　止められない<br>
+                    ハート撃ち抜かれてる<br>
+                    最後の札が明かされるまで<br>
+                    きっと、僕を信じて<br>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="copyright">© 2021 ADAMASGATI ENTERTAINMENT</p>
+    </footer>
+</body>
+</html>
