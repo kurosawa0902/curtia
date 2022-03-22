@@ -4,6 +4,7 @@
 
     // 最新の動画を降順で記述
     $videos = [
+        'https://www.youtube.com/embed/WMBwzYvSXXE',
         'https://www.youtube.com/embed/OqTnGez-Sg4',
         'https://www.youtube.com/embed/xI5C0X79fhk',
         'https://www.youtube.com/embed/NhSSnI60Yxg',
